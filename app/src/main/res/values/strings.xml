@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_registerAs">Register As</string>
+    <string name="txt_intern">Intern</string>
+    <string name="txt_company">Company</string>
+    <string name="txt_regInternDesc">For those who is looking for internship.</string>
+    <string name="txt_regCompanyDesc">For the companies that search for intern.</string>
+    <string name="biodata_submit">Submit</string>
+    <string name="txt_fullname">Fullname</string>
+    <string name="txt_gender">Gender</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_phone">Phone Number</string>
+    <string name="txt_address">Address</string>
+    <string name="txt_education">Highest Education</string>
+    <string name="txt_intern_bio">Insert Intern Biodata</string>
+    <string name="txt_company_bio">Insert Company Biodata</string>
+    <string name="txt_company_name">Company Name</string>
+    <string name="txt_company_phone">Company Phone</string>
+    <string name="txt_company_email">Company Email</string>
+    <string name="txt_company_description">Company Description</string>
+    <string name="txt_company_field">Company Field</string>
+    <string name="txt_company_address">Company Address</string>
+    <string name="txt_register_company">Register Company</string>
+    <string name="txt_register_intern">Register Intern</string>
+    <string name="dont_have_account">Don\'t have account? Register</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

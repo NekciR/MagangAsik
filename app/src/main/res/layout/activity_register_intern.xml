@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_logo_foreground"
+            android:layout_marginBottom="10dp"
+
+
+            />
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_person_black_36dp"
+                android:drawablePadding="10dp"
+                android:textSize="24sp"
+                android:hint="@string/txt_username"
+                android:layout_marginBottom="10dp"
+                />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_lock_black_36dp"
+                android:drawablePadding="10dp"
+                android:textSize="24sp"
+                android:inputType="textPassword"
+                android:hint="@string/txt_password"
+                android:layout_marginBottom="10dp"
+                />
+
+
+
+            <Button
+                android:id="@+id/btn_register_intern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_Color"
+                android:textColor="@android:color/white"
+                android:text="@string/txt_register_intern"
+                android:textSize="20sp"
+                android:layout_marginBottom="10dp"
+                />
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
